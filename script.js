@@ -37,7 +37,7 @@ document.getElementById('minus').addEventListener('click',()=>updateInput('-'));
 document.getElementById('multiply').addEventListener('click',()=>updateInput('*'));
 document.getElementById('divide').addEventListener('click',()=>updateInput('/'));
 document.getElementById('dot').addEventListener('click',()=>updateInput('.'));
-document.getElementById('clear').addEventListener('click',clearInput);
+document.getElementById('clr').addEventListener('click',clearInput);
 document.getElementById('ans').addEventListener('click',calculate);
 
 
